@@ -4,23 +4,10 @@ package com.github.matinh.test;
  * Hello world!
  *
  */
-public class App
+public final class App
 {
-    /** The name to say hello to. */
-    private String name;
-
-    /**
-     * Greet the caller.
-     */
-    private void sayHello()
+    private App()
     {
-
-        System.out.println("Hello " + (name == null ? "world" : name) + "!");
-    }
-
-    private void setName(String name)
-    {
-        this.name = name;
     }
 
     /**
@@ -29,7 +16,7 @@ public class App
      */
     public static void main(String[] args)
     {
-        final App app = new App();
+        final Greeter app = new Greeter();
         app.setName("Martin");
         app.sayHello();
         app.setName("Lisi");
