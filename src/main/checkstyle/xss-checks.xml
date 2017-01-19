@@ -150,7 +150,7 @@
       <property name="option" value="nl"/>
       <property name="tokens" value="CLASS_DEF,INTERFACE_DEF,METHOD_DEF"/>
     </module>
-    <module name="NeedBraces"/>
+    <!--<module name="NeedBraces"/>-->
     <module name="RightCurly"/>
 
     <!-- Checks for common coding problems               -->
@@ -165,7 +165,7 @@
     <module name="IllegalInstantiation"/>
     <module name="InnerAssignment"/>
     <module name="MagicNumber"/>
-    <module name="MissingSwitchDefault"/>
+    <!--<module name="MissingSwitchDefault"/>-->
     <module name="SimplifyBooleanExpression"/>
     <module name="SimplifyBooleanReturn"/>
 
